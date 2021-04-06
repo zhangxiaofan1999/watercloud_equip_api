@@ -7,10 +7,11 @@
 		"password" : "981222",
 		"port" : 3306
 	},
+	
 	"jwt_config" : {
-		"uid": "yuanqingyan",
+		"uid": "zhangxiaofan",
 		"sub": "tokenAuth",
-		"secretKey":"yuanqingyan",
+		"secretKey":"zhangxiaofan",
 		"expiresIn": "1h"
 	}
 }

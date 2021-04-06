@@ -41,6 +41,11 @@ server.all('*',
 // 路由
 server.use('/users', require('./routes/users'));
 server.use('/equipmentIn', require('./routes/equipmentIn'));
+server.use('/equipmentOut', require('./routes/equipmentOut'));
+server.use('/equipmentOnline', require('./routes/equipmentOnline'));
+server.use('/equipmentIncheck', require('./routes/equipmentIncheck'));
+server.use('/equipmentCheckStandard', require('./routes/equipmentCheckStandard'));
+server.use('/equipmentFailure', require('./routes/equipmentFailure'));
 
 // 启动监听
 server.listen(port, () => console.log("server api is runing at http://localhost:8088/"));
