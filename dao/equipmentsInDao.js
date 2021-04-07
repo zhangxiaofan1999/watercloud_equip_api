@@ -1,4 +1,5 @@
 const databaseModules = require('../modules/database');
+const dayjs = require('dayjs');
 ///////////////////////////////////
 //访问数据库，具体的SQL语句
 //获取在厂设备信息
